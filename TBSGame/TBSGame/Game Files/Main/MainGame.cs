@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using MonoGame.Extended.Timers;
 
 namespace TBSGame
 {
@@ -63,7 +64,6 @@ namespace TBSGame
                 Exit();
 
             // TODO: Add your update logic here
-
             base.Update(gameTime);
         }
 
